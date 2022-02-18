@@ -11,7 +11,7 @@ dotenv.config()
 const PORT = process.env.PORT || 5000
 app.use(cors({
   // ORIGIN IS WHERE THE FRONT END GOES localhost 3000 or Netlify url
-  origin: "http://localhost:3000",
+  origin: "https://snmobilenotary.netlify.app",
   methods: ["GET", "POST"],
 }
 
