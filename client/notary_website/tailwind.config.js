@@ -37,6 +37,7 @@ module.exports = {
         'button-color': '#123456',
         'button-color-hover': '#1B4E80',
         'grey-color': '#e5ecee',
+        'turquoise': '#1B8080'
       }
     },
     keyframes: {
