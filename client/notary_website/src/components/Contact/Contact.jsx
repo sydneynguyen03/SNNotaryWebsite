@@ -185,7 +185,7 @@ const Contact = ({isVisible, setIsVisible}) => {
                             </div>
 
                             <div className='mobile-contact-submit flex flex-row h-[100%] w-[100%]'>
-                                <button type="submit" className="flex flex-row justify-center items-center w-[100%] shadow-lg rounded-[px] font-semibold text-[2rem] text-white outline-hidden cursor-pointer transition-all ease-in-out duration-200 bg-button-color whitespace-nowrap px-[22px] py-[10px] text-shadow hover:bg-button-color-hover">Submit</button>
+                                <button type="submit" className="flex flex-row justify-center items-center w-[100%] shadow-lg rounded-[10px] font-semibold text-[2rem] text-white outline-hidden cursor-pointer transition-all ease-in-out duration-200 bg-button-color whitespace-nowrap px-[22px] py-[10px] text-shadow hover:bg-turquoise">Submit</button>
                             </div>
 
                         </form>

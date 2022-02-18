@@ -29,19 +29,19 @@ const Services = () => {
                   </div>
 
                   <div className="flex flex-col justify-center mb-[30px] -tracking-[0.64px] w-[75%] ">
-                    <div  onClick={() => window.location.replace("/#contact")}  className="flex flex-row justify-center cursor-pointer bg-button-color text-white rounded-2xl p-[30px] mb-[2rem] shadow-lg hover:bg-button-color-hover">
+                    <div  onClick={() => window.location.replace("/#contact")}  className="flex flex-row justify-center cursor-pointer bg-button-color text-white rounded-2xl p-[30px] mb-[2rem] shadow-lg :hoverbg-turquoise">
                       <FaHome className="mobile-icon-type text-yellow-400 items-center text-[3rem] "/>
                       <h2 className="mobile-text text-[32px] ml-[1rem] text-shadow ">Home Purchase</h2>
                     </div>
-                    <div onClick={() => window.location.replace("/#contact")} className="flex flex-row justify-center cursor-pointer bg-button-color text-white rounded-2xl p-[30px] mb-[2rem] shadow-lg hover:bg-button-color-hover">
+                    <div onClick={() => window.location.replace("/#contact")} className="flex flex-row justify-center cursor-pointer bg-button-color text-white rounded-2xl p-[30px] mb-[2rem] shadow-lg hover:bg-turquoise">
                       <FaExchangeAlt className="mobile-icon-type text-yellow-400 items-center text-[3rem]" />
                       <h2 className="mobile-text text-[32px] ml-[1rem] text-shadow ">Mortgage Refinance</h2>
                     </div>
-                    <div onClick={() => window.location.replace("/#contact")} className="flex flex-row justify-center cursor-pointer bg-button-color text-white rounded-2xl p-[30px] mb-[2rem] shadow-lg hover:bg-button-color-hover">
+                    <div onClick={() => window.location.replace("/#contact")} className="flex flex-row justify-center cursor-pointer bg-button-color text-white rounded-2xl p-[30px] mb-[2rem] shadow-lg hover:bg-turquoise">
                       <FaFileSignature className="mobile-icon-type text-yellow-400 items-center text-[3rem]" />
                       <h2 className="mobile-text text-[32px] ml-[1rem] text-shadow ">Seller's Package</h2>
                     </div>
-                    <div onClick={() => window.location.replace("/#contact")} className="flex flex-row justify-center cursor-pointer bg-button-color text-white rounded-2xl p-[30px] mb-[2rem] shadow-lg hover:bg-button-color-hover">
+                    <div onClick={() => window.location.replace("/#contact")} className="flex flex-row justify-center cursor-pointer bg-button-color text-white rounded-2xl p-[30px] mb-[2rem] shadow-lg hover:bg-turquoise">
                       <FaMoneyCheckAlt className="mobile-icon-type text-yellow-400 items-center text-[3rem]" />
                       <h2 className="mobile-text text-[32px] ml-[1rem] text-shadow ">Home Equity Loan</h2>
                     </div>

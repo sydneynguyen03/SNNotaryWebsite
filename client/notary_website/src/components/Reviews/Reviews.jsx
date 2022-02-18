@@ -64,7 +64,7 @@ const Reviews = ({isVisible, setIsVisible}) => {
                     
                     
                 <div onClick={() => window.open('https://www.yelp.com/biz/sydney-nguyen-the-notary-public-rosemead-6')} 
-                        className={isVisible ? "mobile-review-bubble bg-button-color h-[100%] w-[30%] rounded-2xl flex flex-col p-[2%] m-[2%] shadow-lg cursor-pointer transition-all linear duration-[3000ms] opacity-100 hover:bg-button-color-hover" :
+                        className={isVisible ? "mobile-review-bubble bg-button-color h-[100%] w-[30%] rounded-2xl flex flex-col p-[2%] m-[2%] shadow-lg cursor-pointer transition-all linear duration-[2000ms] opacity-100 hover:bg-turquoise" :
                         "mobile-review-bubble bg-turquoise h-[100%] w-[30%] rounded-2xl flex flex-col p-[2%] shadow-lg cursor-pointer opacity-0 translate-y-40"
                     }>
                         
@@ -85,7 +85,7 @@ const Reviews = ({isVisible, setIsVisible}) => {
 
                 
                 <div onClick={() => window.open('https://www.yelp.com/biz/sydney-nguyen-the-notary-public-rosemead-6')}  
-                    className= {isVisible ? "mobile-review-bubble bg-button-color h-[100%] w-[30%] rounded-2xl flex flex-col p-[2%] ml-[2%] mt-[2%] mr-[0%] shadow-lg cursor-pointer transition-all linear duration-[3000ms] opacity-100 hover:bg-button-color-hover" :
+                    className= {isVisible ? "mobile-review-bubble bg-button-color h-[100%] w-[30%] rounded-2xl flex flex-col p-[2%] ml-[2%] mt-[2%] mr-[0%] shadow-lg cursor-pointer transition-all linear duration-[2000ms] opacity-100 hover:bg-turquoise" :
                     "mobile-review-bubble bg-turquoise h-[100%] w-[30%] rounded-2xl flex flex-col p-[2%] shadow-lg cursor-pointer opacity-0 translate-y-40"}>
                
                         <div className="flex flex-row justify-start ">
@@ -105,7 +105,7 @@ const Reviews = ({isVisible, setIsVisible}) => {
       
     
                 <div onClick={() => window.open('https://www.yelp.com/biz/sydney-nguyen-the-notary-public-rosemead-6')}  
-                    className= {isVisible ? "mobile-review-bubble bg-button-color h-[100%] w-[30%] rounded-2xl flex flex-col p-[2%] m-[2%] shadow-lg cursor-pointer transition-all linear duration-[3000ms] opacity-100 hover:bg-button-color-hover" :
+                    className= {isVisible ? "mobile-review-bubble bg-button-color h-[100%] w-[30%] rounded-2xl flex flex-col p-[2%] m-[2%] shadow-lg cursor-pointer transition-all linear duration-[2000ms] opacity-100 hover:bg-turquoise" :
                     "mobile-review-bubble bg-turquoise h-[100%] w-[30%] rounded-2xl flex flex-col p-[2%] shadow-lg cursor-pointer opacity-0 translate-y-40"}>
             
                         <div className="flex flex-row justify-start">
@@ -129,7 +129,7 @@ const Reviews = ({isVisible, setIsVisible}) => {
                 {/* 4th review */}
                 <div onClick={() => window.open('https://www.yelp.com/biz/sydney-nguyen-the-notary-public-rosemead-6')}  
                     
-                    className= {isVisible ?   "mobile-review-bubble bg-button-color h-[100%] w-[30%] rounded-2xl flex flex-col p-[2%] m-[2%] shadow-lg cursor-pointer transition-all linear duration-[3000ms] opacity-100 hover:bg-button-color-hover" :
+                    className= {isVisible ?   "mobile-review-bubble bg-button-color h-[100%] w-[30%] rounded-2xl flex flex-col p-[2%] m-[2%] shadow-lg cursor-pointer transition-all linear duration-[2000ms] opacity-100 hover:bg-turquoise" :
                     "mobile-review-bubble bg-turquoise h-[100%] w-[30%] rounded-2xl flex flex-col p-[2%] mt-[2%] shadow-lg cursor-pointer opacity-0 translate-y-40" }>
                     
                 
@@ -149,7 +149,7 @@ Thanks Sydney!
                 </div>
                 {/* 5th review*/}
                 <div onClick={() => window.open('https://www.yelp.com/biz/sydney-nguyen-the-notary-public-rosemead-6')}  
-                    className= {isVisible ?   "mobile-review-bubble bg-button-color h-[100%] w-[30%] rounded-2xl flex flex-col p-[2%] mt-[2%] mr-[1%] shadow-lg cursor-pointer transition-all linear duration-[3000ms] opacity-100 hover:bg-button-color-hover":
+                    className= {isVisible ?   "mobile-review-bubble bg-button-color h-[100%] w-[30%] rounded-2xl flex flex-col p-[2%] mt-[2%] mr-[1%] shadow-lg cursor-pointer transition-all linear duration-[2000ms] opacity-100 hover:bg-turquoise":
                     "mobile-review-bubble bg-turquoise h-[100%] w-[30%] rounded-2xl flex flex-col p-[2%] mt-[2%] shadow-lg cursor-pointer opacity-0 translate-y-40" }>
                
                         <div className="flex flex-row justify-start">
