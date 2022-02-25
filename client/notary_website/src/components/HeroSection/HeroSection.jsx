@@ -5,7 +5,7 @@ const HeroSection = () => {
     <div id="home" className="my-[10%] md:mt-[5%]">
     <div id="hero-div" className="flex bg-grey-color justify-center items-center px-[30px] h-[100%] relative z-[1]"> 
     {/* grid grid-cols-2 place-items-center place-content-center */}
-        <div id="hero-section" className="mobile-hero-section flex flex-col lg:flex-row items-center justify-center w-full h-full overflow-visible max-w-[1100px]">
+        <div id="hero-section" className="mobile-hero-section flex flex-col lg:flex-row items-center justify-center pb-w-full h-full overflow-visible max-w-[1100px]">
               <div className="h-[100%] w-[100%] flex flex-col justify-center items-center">
                   <h1 className="mobile-hero-header text-center lg:text-left -tracking-[0.64px] text-[48px] text-[#363f41] leading-[52px] mb-[20px] w-[100%] font-semibold px-4">The best mobile <br/> closing experience <br/> guaranteed.</h1>
                   

@@ -487,7 +487,7 @@ option:first-of-type {
 
   // }
   .mobile-hero-section {
-    margin-top: 57%;
+    margin-top: 0%;
   }
   .mobile-hero-header {
     text-align: center;
@@ -545,9 +545,9 @@ option:first-of-type {
 
 @media (max-width: 280px){
 
-  // .mobile-navbar-logo {
-  //   display: none;  
-  // }
+  #home{
+    margin-top: 0%;
+  }
 
   .mobile-navbar-container {
     padding-left: 0%;
@@ -556,7 +556,7 @@ option:first-of-type {
   }
 
   .mobile-hero-section {
-    margin-top: 65%;
+    margin-top: 0%;
   }
   .mobile-hero-header {
     text-align: center;
