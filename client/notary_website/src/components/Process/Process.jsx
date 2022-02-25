@@ -9,7 +9,7 @@ const Process = () => {
   return (
 
    
-    <div id="process" className="flex flex-col relative justify-start items-center bg-button-color h-[100%] py-[5%] md:mt-[20%]">
+    <div id="process" className="flex flex-col relative justify-start items-center bg-button-color h-[100%] py-[5%] md:mt-[5%]" >
 
         <div className="process-waves">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -17,7 +17,7 @@ const Process = () => {
             </svg>
         </div>
         {/* Header */}
-        <div className="flex flex-row justify-center items-center">
+        <div className="flex flex-row justify-center items-center mt-[5%] sm:mt-[0%]">
             <h1 className="mobile-header -tracking-[0.64px] text-[64px] text-[#ffffff] mb-[50px] font-bold text-shadow" >How does it work?</h1>
 
         </div>

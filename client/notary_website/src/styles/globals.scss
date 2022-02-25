@@ -9,10 +9,16 @@ html {
 }
 
 body {
+  // padding: 0;
+  // margin: 0;
+  // background-color: #e5ecee;
   padding: 0;
   margin: 0;
   background-color: #e5ecee;
-
+  // removes the black box when selecting on input tag
+  :focus {
+    outline: 0;
+  }
 
 }
 
@@ -34,6 +40,9 @@ a {
   text-shadow: 0px 2px 0px rgb(0 0 0 / 30%);
 }
 
+#about-title {
+  font-family: 'Comforter', cursive;
+}
 
 @keyframes slideUp {
   from {
@@ -153,7 +162,7 @@ a {
 }
 .services-waves {
   position: absolute;
-  top: 0;
+  top: -1px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -173,7 +182,7 @@ a {
 
 .process-waves {
   position: absolute;
-  top: 0;
+  top: -1px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -193,7 +202,7 @@ a {
 
 .reviews-waves {
   position: absolute;
-  top: 0;
+  top: -1px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -213,7 +222,7 @@ a {
 
 .contact-waves {
   position: absolute;
-  top: 0;
+  top: -1px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -348,13 +357,13 @@ option:first-of-type {
   
 
   #hero-div {
-    height: 65vh;
+    height: 100%;
     
   }
   #hero-section{
     grid-template-columns: repeat(1, minmax(0, 1fr));
     place-content: center;
-    padding-bottom: 200px; 
+
   }
 
   #hero-button{
@@ -362,12 +371,20 @@ option:first-of-type {
     margin-top: 3rem;
     
   }
-  #hero-svg {
-    display: none;
-  }
+
+  
+
 }
 
 @media (max-width: 414px){
+  #hero-div {
+    height: 90vh;
+    margin-bottom: 20%;
+  }
+
+  .mobile-hero-section {
+    margin-top: 0%;
+  }
 
   .mobile-contact-form {
     row-gap: 2%;
@@ -440,6 +457,10 @@ option:first-of-type {
 }
 
 @media (max-width: 280px){
+  .mobile-hero-section {
+    margin-top: 0%;
+  }
+
   .mobile-icon-type {
     display: none;
   }
@@ -461,10 +482,10 @@ option:first-of-type {
 
 @media (max-width: 414px){
 
-  .mobile-navbar-logo {
-    display: none;  
+  // .mobile-navbar-logo {
+  //   display: none;  
 
-  }
+  // }
   .mobile-hero-section {
     margin-top: 57%;
   }
@@ -524,9 +545,9 @@ option:first-of-type {
 
 @media (max-width: 280px){
 
-  .mobile-navbar-logo {
-    display: none;  
-  }
+  // .mobile-navbar-logo {
+  //   display: none;  
+  // }
 
   .mobile-navbar-container {
     padding-left: 0%;

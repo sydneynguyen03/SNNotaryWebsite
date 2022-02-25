@@ -4,7 +4,7 @@ import { FaCheck, FaHome, FaMoneyCheckAlt,FaFileSignature, FaExchangeAlt } from 
 const Services = () => {
   return (
 
-      <div id="services" className="services-height flex flex-col relative items-center bg-grey-color h-[100%] py-[5%]">
+      <div id="services" className="services-height flex flex-col relative items-center bg-grey-color h-[100%] mt-[0%] py-[5%]">
 
           <div className="services-waves">
               <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
