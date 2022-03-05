@@ -2,20 +2,21 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <div id="home" className="my-[20%] sm:my-[0] md:my-[0%] pt-[10%] md:pt-[0%] ">
+    <div id="home" className="my-[25%] sm:my-[0] md:my-[0%] pt-[10%] md:pt-[0%] ">
     <div id="hero-div" className="flex bg-grey-color justify-center items-center px-[0] md:px-[30px] h-[100%] w-full relative z-[1]"> 
         <div id="hero-section" className="mobile-hero-section flex flex-col md:flex-row items-center justify-center w-full h-full overflow-visible max-w-[1100px] ">
               <div className="w-[100%] h-[100%] flex flex-col justify-center items-center ml-[0%] md:ml-[15%] lg:ml-[0%] md:pl-[10%] lg:scale-[1]">
-                  <h1 className="mobile-hero-header text-center md:text-left -tracking-[0.64px] text-[35px] lg:text-[48px] text-[#363f41] leading-[40px] lg:leading-[52px] mb-[20px] w-full font-bold lg:font-semibold min-w-max ml-[0%] md:ml-[10%] lg:ml-[0%] ">The best mobile <br/> closing experience <br/> guaranteed.</h1>
-                  
-                  <p className="mobile-hero-text text-center md:text-left text-[24px] leading-[33px] mb-[25px] font-normal px-2 md:px-0">Reliable and timely service, my closing process delivers the best closing experience to every signer, escrow, and mortgage officer.</p>
-                  <div className="lg:ml-[3%] flex flex-row justify-center lg:justify-start mobile-hero-button w-[100%]">
+              {/* */}
+                  <h1 className="mobile-hero-header text-center md:text-left -tracking-[0.64px] text-[35px] lg:text-[48px] text-[#363f41] leading-[40px] lg:leading-[52px] mb-[20px] w-full font-semibold lg:font-semibold min-w-max ml-[0%] md:ml-[6%] lg:ml-[0%]">The best mobile <br/> closing experience <br/> guaranteed.</h1>
+                  {/*  */}
+                  <p className="mobile-hero-text text-center md:text-left text-[26px] lg:text-[24px] leading-[33px] mb-[25px] font-normal px-4 md:px-0 md:ml-[2%] lg:ml-[0%]">Reliable and timely service, my closing process delivers the best closing experience to every signer, escrow, and mortgage officer.</p>
+                  <div className="lg:ml-[3%] flex flex-row justify-center md:justify-start mobile-hero-button w-[100%]">
                       <a id="hero-button" href="#contact" className="block w-[264px] font-semibold cursor-pointer text-center rounded-[50px] text-[16px] text-white outline-hidden transition-all linear duration-200 bg-button-color whitespace-nowrap px-[22px] py-[10px] text-shadow hover:bg-button-color-hover">Request a Quote</a>
 
                   </div>
               </div>
               <div id="hero-svg" className="h-full flex flex-col lg:flex-row justify-center items-center mt-[0%] md:mt-[10%] md:mb-[0%] ml-[10%] mr-[5%] lg:mr-[0%] lg:mt-[0%] lg:ml-[0%] relative">
-                  <div className="scale-[1] xl: scale-[1]">
+                  <div className="scale-[.8] sm:scale-[1]">
                       
                       <svg width="500" height="500" id="hero-svg-animate" viewBox="0 0 619 615" fill="none" xmlns="http://www.w3.org/2000/svg" className="overflow-visible ">
                           <g id="undraw_agreement_re_d4dv 1">

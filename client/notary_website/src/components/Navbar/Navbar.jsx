@@ -18,14 +18,14 @@ const Navbar = ( { show, setShow } ) => {
         <nav className="relative transition-all ease-in-out duration-700 z-[102] h-[80px] w-[100%] top-0 sticky flex flex-wrap items-center text-base justify-center px-0 py-5 text-white bg-white shadow-lg">
           <div className="mobile-navbar-container flex justify-center md:flex justify-between px-[24px] h-[100%] z-[1] w-full max-w-[1100px]">
 
-            <a href="/" className="mobile-navbar-logo flex text-black gap-x-[5px] justify-self-start pb-[5px] cursor-pointer text-xl items-center font-bold text-[26px] hover:text-turquoise" alt="black pen icon">SN Notary <span className="text-[26px] mb-[20px]"><FaPenAlt /></span></a>
+            <a href="/" className="mobile-navbar-logo flex text-black gap-x-[5px] justify-self-start pb-[5px] cursor-pointer items-center font-bold text-[40px] hover:text-turquoise" alt="black pen icon">SN Notary <span className="mobile-pen-logo text-[26px] mb-[20px]"><FaPenAlt /></span></a>
 
             {/* Mobile Desktop Navmenu*/}
 
 
             <div className="flex pr-[10px] lg:hidden">
               <button onClick={() => window.open('tel:6268728584', '_self')} 
-              className="space-x-2 rounded-[10px] font-semibold text-[16px] text-white outline-hidden flex items-center cursor-pointer transition-all ease-in-out duration-200 bg-button-color whitespace-nowrap px-[22px] py-[10px] text-shadow hover:bg-turquoise hover:text-yellow-400 ">
+              className="mobile-button space-x-2 rounded-[10px] font-semibold text-[16px] text-white outline-hidden flex items-center cursor-pointer transition-all ease-in-out duration-200 bg-button-color whitespace-nowrap px-[22px] py-[10px] text-shadow hover:bg-turquoise hover:text-yellow-400 ">
                
                   <span className="text-white">Call Now</span>
                   <FaPhone className=""/>
