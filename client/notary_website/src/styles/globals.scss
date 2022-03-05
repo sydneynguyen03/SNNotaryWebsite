@@ -4,17 +4,15 @@ html {
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
- 
+ overflow-x: hidden;
   
 }
 
 body {
-  // padding: 0;
-  // margin: 0;
-  // background-color: #e5ecee;
   padding: 0;
   margin: 0;
   background-color: #e5ecee;
+  overflow-x: hidden;
   // removes the black box when selecting on input tag
   :focus {
     outline: 0;

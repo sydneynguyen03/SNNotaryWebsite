@@ -19,7 +19,7 @@ const Mobilebar = ({setShow, show}) => {
                         <a href="/about" onClick={() => setShow(!show)} className="font-light cursor-pointer hover:text-button-color-hover transition ease-in-out duration-200">About</a>
                         <a href="#process" onClick={() => setShow(!show)} className="font-light cursor-pointer hover:text-button-color-hover transition ease-in-out duration-200">Process</a>
                         <a href="#services" onClick={() => setShow(!show)} className="font-light  cursor-pointer hover:text-button-color-hover transition ease-in-out duration-200">Services</a>
-                        <a href="/fees" onClick={() => setShow(!show)} className="font-light  cursor-pointer hover:text-button-color-hover transition ease-in-out duration-200">Fee Calculator</a>
+                        <a href="/fees" onClick={() => setShow(!show)} className="font-light  cursor-pointer hover:text-button-color-hover transition ease-in-out duration-200">Fee Estimate</a>
                         <a href="#contact" onClick={() => setShow(!show)} className="font-light cursor-pointer hover:text-button-color-hover transition ease-in-out duration-200">Contact</a>
                         {/* <a href="#contact" onClick={() => setShow(!show)} className="text-white font-normal whitespace-nowrap text-[25px] px-[50px] py-[10px] bg-button-color rounded-[50px] outline-hidden cursor-pointer text-shadow hover:bg-button-color-hover transition ease-in-out duration-200">Contact</a> */}
               
