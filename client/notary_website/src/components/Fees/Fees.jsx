@@ -445,7 +445,6 @@ const Fees = () => {
         </div>
     </div>
 
-
   );
 };
 

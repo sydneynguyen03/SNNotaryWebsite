@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HeroSection, Process, Services, Reviews, Contact } from '../index'
+import { HeroSection, Process, Services, Reviews, Contact, Footer } from '../index'
 
 const Home = () => {
 
@@ -12,6 +12,7 @@ const Home = () => {
 
           <Reviews isVisible={isVisible} setIsVisible={setIsVisible}/>
           <Contact isVisible={isVisible} setIsVisible={setIsVisible}/>
+          <Footer isVisible={isVisible} setIsVisible={setIsVisible}/>
       </div>
   );
 };

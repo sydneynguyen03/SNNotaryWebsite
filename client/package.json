@@ -5,7 +5,7 @@
   "dependencies": {
     "google-maps-react": "^2.0.6",
     "react-icons": "^4.3.1",
-    "react-router-dom": "^6.2.1",
+    "react-router-dom": "^6.3.0",
     "react-vertical-timeline-component": "^3.5.2",
     "sass": "^1.49.0"
   }
