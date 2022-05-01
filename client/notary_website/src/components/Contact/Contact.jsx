@@ -133,7 +133,7 @@ const Contact = ({isVisible, setIsVisible}) => {
                 submitted ? 
                     <div className="flex flex-col justify-between items-center bg-white rounded-2xl shadow-lg p-[5%] gap-y-[5%] mt-[0%] sm:mt-[10%]  md:mt-[5%] ">  
                         <div>
-                            <p className="text-align-center text-center text-[1.5rem]"><span className="text-[2rem] font-bold block">Thank you!</span> <br/> Your submission has been received. A confirmation email has been sent to {document.getElementById("email").value} and I will get back to you as soon as possible.</p>
+                            <p className="text-align-center text-center text-[1.5rem]"><span className="text-[2rem] font-bold block">Thank you!</span> <br/> Your submission has been received. A confirmation email has been sent and I will get back to you as soon as possible.</p>
                         </div>
                        <div className="pt-[5%]">
                             <button onClick={(e) => handleGoBack(e)}className="justify-center items-center w-[100%] shadow-lg rounded-[10px] font-semibold text-[28px] text-white outline-hidden cursor-pointer transition-all ease-in-out duration-200 bg-button-color whitespace-nowrap px-[22px] py-[10px] text-shadow hover:bg-button-color-hover">Return</button> 
