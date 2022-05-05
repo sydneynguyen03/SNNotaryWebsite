@@ -38,7 +38,7 @@ const Contact = ({isVisible, setIsVisible}) => {
         
     },);
 
-    const url = "https://jn-notary.herokuapp.com"
+    const url = "https://snnotary-website.herokuapp.com/"
     
 
     const [submitted, setSubmitted] = useState(false)    
@@ -130,13 +130,13 @@ const Contact = ({isVisible, setIsVisible}) => {
             </div>
             <h1 ref={containerRef} className="mobile-header -tracking-[0.64px] text-[64px] leading-[52px] font-bold text-black text-shadow mb-[10%]  mt-[5%] sm:mt-[0%] xl:mb-[5%]">Contact Form</h1>
             {
-                submitted == false ? 
+                submitted == true ? 
                     <div className="flex flex-col justify-between items-center bg-white rounded-2xl shadow-lg p-[5%] gap-y-[5%] mt-[0%] sm:mt-[10%]  md:mt-[5%] ">  
                         <div>
                             <p className="text-align-center text-center text-[1.5rem]"><span className="text-[2rem] font-bold block">Thank you!</span> <br/> Your submission has been received. Your confirmation email has been sent and I will get back to you as soon as possible.</p>
                         </div>
                        <div className="pt-[5%]">
-                            <button onClick={(e) => handleGoBack(e)}className="justify-center items-center w-[100%] shadow-lg rounded-[10px] font-semibold text-[28px] text-white outline-hidden cursor-pointer transition-all ease-in-out duration-200 bg-button-color whitespace-nowrap px-[22px] py-[10px] text-shadow hover:bg-button-color-hover">Return</button> 
+                            <button onClick={(e) => handleGoBack(e)} className="justify-center items-center w-[100%] shadow-lg rounded-[10px] font-semibold text-[28px] text-white outline-hidden cursor-pointer transition-all ease-in-out duration-200 bg-button-color whitespace-nowrap px-[22px] py-[10px] text-shadow hover:bg-button-color-hover">Return</button> 
                         </div>
                         
                     </div> :
