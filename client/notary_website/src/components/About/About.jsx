@@ -18,8 +18,8 @@ const About = () => {
                 <h1 className="text-center -tracking-[0.64px] text-[32px] leading-[52px] font-semibold text-black mb-[5%] xl:hidden">Sydney Nguyen <br/> Mobile Notary Public</h1>
                 {/* title on desktop */}
                 <h1 className="hidden xl:block xl:text-center xl:-tracking-[0.64px] xl:text-[32px] xl:leading-[52px] xl:font-semibold xl:text-black xl:text-shadow xl:mb-[5%] whitespace-nowrap">Sydney Nguyen | Mobile Notary Public</h1>
-                <p className="text-[26px]">While studying Business Administration - Finance concentration at the <span className="font-semibold underline">California State University of Fullerton</span>, I decided to start my mobile notary business in 2019.  <br/><br/> Since then,
-                I have closed <span className="font-semibold underline">600+</span> signings in the real estate industry which includes <span className="font-semibold underline">Purchases, Refinances, Seller's Packages & Home Equity Loans in Los Angeles County</span>. I've also learned that the crucial ingredients to a perfect closing are Communication, Care and Compliance. <br></br>
+                <p className="text-[26px]">While studying Business Administration Finance at the <span className="font-semibold underline">California State University of Fullerton</span>, I decided to start my mobile notary business in 2019.  <br/><br/> Since then,
+                I have closed <span className="font-semibold underline">700+</span> signings in the real estate industry which include <span className="font-semibold underline">Purchases, Refinances, Seller's Packages & Home Equity Loans in Los Angeles County</span>. While serving the community, I've learned that the crucial ingredients to a perfect closing are Communication, Care and Compliance. <br></br>
                 </p>
                 <p className="text-[26px] pt-[5%]">
                 Thank you for visiting my website!
