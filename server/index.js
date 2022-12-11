@@ -20,7 +20,7 @@ app.use(cors({
 )); //utilize Cors so the browser doesn't restrict data, without it Sendgrid will not send!
 
 app.use(express.json()) // accept data in json format
-app.use(express.urlencoded()); // decode data sent thru html form 
+app.use(express.urlencoded({ extended: true })); // decode data sent thru html form 
 // app.use('/fees', feesRoutes)
 app.get('/', (req, res) => {
     res.send("Welcome to the Sendgrid Emailing Server"); 
